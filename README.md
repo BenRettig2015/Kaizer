@@ -1,6 +1,7 @@
 # Kaizer
 Kaizer Chiefs Roster + Schedule
 -- Objective - C Static Tableview 
-![Alt text](https://www.ithimba365.win/kchiefs/images/kaizer.gif)  
+![Farmers Market Finder Demo](demo.gif)
+
 
 
