@@ -1,4 +1,4 @@
 # Kaizer
 Kaizer Chiefs Roster + Schedule
 -- Objective - C Static Tableview 
-![Alt text](https://www.ithimba365.win/kchiefs/images/home.png "Optional title")
+![Alt text](https://www.ithimba365.win/kchiefs/images/home.png | width=100 "Optional title")
