@@ -1,9 +1,9 @@
 //
 //  ViewController.m
-//  IthimbaChiefs365
+//  IthimbaKaizer
 //
-//  Created by newuser on 2/7/20.
-//  Copyright © 2020 Benjamin Rettig. All rights reserved.
+//  Created by newuser on 12/28/19.
+//  Copyright © 2019 IthimbaKaizer. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -14,9 +14,18 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background"]];
+
+    [self.view addSubview:backgroundImage];
+    [self.view sendSubviewToBack:backgroundImage];
+    
+//    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"nav_bar"] forBarMetrics:UIBarMetricsDefault];
+    //self.navigationController.navigationBar.barTintColor = [UIColor yellowColor];
+  
+    
 }
 
 

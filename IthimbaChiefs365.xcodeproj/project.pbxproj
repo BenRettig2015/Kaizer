@@ -8,14 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		B20CBD2123EDF8B70064B08D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B20CBD2023EDF8B70064B08D /* AppDelegate.m */; };
-		B20CBD2423EDF8B70064B08D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B20CBD2323EDF8B70064B08D /* SceneDelegate.m */; };
 		B20CBD2723EDF8B70064B08D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20CBD2623EDF8B70064B08D /* ViewController.m */; };
 		B20CBD2A23EDF8B80064B08D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20CBD2823EDF8B70064B08D /* Main.storyboard */; };
-		B20CBD2C23EDF8BA0064B08D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20CBD2B23EDF8BA0064B08D /* Assets.xcassets */; };
 		B20CBD2F23EDF8BA0064B08D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20CBD2D23EDF8BA0064B08D /* LaunchScreen.storyboard */; };
 		B20CBD3223EDF8BA0064B08D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B20CBD3123EDF8BA0064B08D /* main.m */; };
 		B20CBD3C23EDF8BA0064B08D /* IthimbaChiefs365Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B20CBD3B23EDF8BA0064B08D /* IthimbaChiefs365Tests.m */; };
 		B20CBD4723EDF8BA0064B08D /* IthimbaChiefs365UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B20CBD4623EDF8BA0064B08D /* IthimbaChiefs365UITests.m */; };
+		B20CBD5723EDFB1B0064B08D /* Webviews in Resources */ = {isa = PBXBuildFile; fileRef = B20CBD5623EDFB1B0064B08D /* Webviews */; };
+		B276886D23EE096900B3DC84 /* ChiefsTableView in Resources */ = {isa = PBXBuildFile; fileRef = B276886C23EE096900B3DC84 /* ChiefsTableView */; };
+		B2C32CEB23EE12F000E49B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C32CEA23EE12EF00E49B70 /* Assets.xcassets */; };
+		B2D661B423EE1DE500E1CB6F /* ChiefsTableView in Sources */ = {isa = PBXBuildFile; fileRef = B276886C23EE096900B3DC84 /* ChiefsTableView */; };
+		B2D661BB23EE1E2500E1CB6F /* RVController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D661B923EE1E2500E1CB6F /* RVController.m */; };
+		B2D661BC23EE1E2500E1CB6F /* Roster.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D661B723EE1E2500E1CB6F /* Roster.m */; };
+		B2D661BD23EE1E2500E1CB6F /* RosterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D661B523EE1E2500E1CB6F /* RosterTableViewCell.m */; };
+		B2D661C423EE1E2E00E1CB6F /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D661BF23EE1E2E00E1CB6F /* ScheduleViewController.m */; };
+		B2D661C523EE1E2E00E1CB6F /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D661C223EE1E2E00E1CB6F /* Schedule.m */; };
+		B2D661C623EE1E2E00E1CB6F /* ScheduleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D661C023EE1E2E00E1CB6F /* ScheduleTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +47,9 @@
 		B20CBD1C23EDF8B70064B08D /* IthimbaChiefs365.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IthimbaChiefs365.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20CBD1F23EDF8B70064B08D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B20CBD2023EDF8B70064B08D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B20CBD2223EDF8B70064B08D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		B20CBD2323EDF8B70064B08D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		B20CBD2523EDF8B70064B08D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B20CBD2623EDF8B70064B08D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B20CBD2923EDF8B80064B08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B20CBD2B23EDF8BA0064B08D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B20CBD2E23EDF8BA0064B08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B20CBD3023EDF8BA0064B08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B20CBD3123EDF8BA0064B08D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,6 +59,21 @@
 		B20CBD4223EDF8BA0064B08D /* IthimbaChiefs365UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IthimbaChiefs365UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20CBD4623EDF8BA0064B08D /* IthimbaChiefs365UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IthimbaChiefs365UITests.m; sourceTree = "<group>"; };
 		B20CBD4823EDF8BA0064B08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20CBD5623EDFB1B0064B08D /* Webviews */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Webviews; sourceTree = "<group>"; };
+		B276886C23EE096900B3DC84 /* ChiefsTableView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ChiefsTableView; sourceTree = "<group>"; };
+		B2C32CEA23EE12EF00E49B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2D661B523EE1E2500E1CB6F /* RosterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RosterTableViewCell.m; sourceTree = "<group>"; };
+		B2D661B623EE1E2500E1CB6F /* RVController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVController.h; sourceTree = "<group>"; };
+		B2D661B723EE1E2500E1CB6F /* Roster.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Roster.m; sourceTree = "<group>"; };
+		B2D661B823EE1E2500E1CB6F /* RosterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RosterTableViewCell.h; sourceTree = "<group>"; };
+		B2D661B923EE1E2500E1CB6F /* RVController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVController.m; sourceTree = "<group>"; };
+		B2D661BA23EE1E2500E1CB6F /* Roster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Roster.h; sourceTree = "<group>"; };
+		B2D661BE23EE1E2D00E1CB6F /* Schedule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		B2D661BF23EE1E2E00E1CB6F /* ScheduleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		B2D661C023EE1E2E00E1CB6F /* ScheduleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableViewCell.m; sourceTree = "<group>"; };
+		B2D661C123EE1E2E00E1CB6F /* ScheduleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		B2D661C223EE1E2E00E1CB6F /* Schedule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
+		B2D661C323EE1E2E00E1CB6F /* ScheduleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScheduleTableViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +124,26 @@
 		B20CBD1E23EDF8B70064B08D /* IthimbaChiefs365 */ = {
 			isa = PBXGroup;
 			children = (
+				B2D661BA23EE1E2500E1CB6F /* Roster.h */,
+				B2D661B723EE1E2500E1CB6F /* Roster.m */,
+				B2D661B823EE1E2500E1CB6F /* RosterTableViewCell.h */,
+				B2D661B523EE1E2500E1CB6F /* RosterTableViewCell.m */,
+				B2D661B623EE1E2500E1CB6F /* RVController.h */,
+				B2D661B923EE1E2500E1CB6F /* RVController.m */,
+				B2D661BE23EE1E2D00E1CB6F /* Schedule.h */,
+				B2D661C223EE1E2E00E1CB6F /* Schedule.m */,
+				B2D661C323EE1E2E00E1CB6F /* ScheduleTableViewCell.h */,
+				B2D661C023EE1E2E00E1CB6F /* ScheduleTableViewCell.m */,
+				B2D661C123EE1E2E00E1CB6F /* ScheduleViewController.h */,
+				B2D661BF23EE1E2E00E1CB6F /* ScheduleViewController.m */,
+				B2C32CEA23EE12EF00E49B70 /* Assets.xcassets */,
+				B276886C23EE096900B3DC84 /* ChiefsTableView */,
 				B20CBD1F23EDF8B70064B08D /* AppDelegate.h */,
 				B20CBD2023EDF8B70064B08D /* AppDelegate.m */,
-				B20CBD2223EDF8B70064B08D /* SceneDelegate.h */,
-				B20CBD2323EDF8B70064B08D /* SceneDelegate.m */,
 				B20CBD2523EDF8B70064B08D /* ViewController.h */,
 				B20CBD2623EDF8B70064B08D /* ViewController.m */,
+				B20CBD5623EDFB1B0064B08D /* Webviews */,
 				B20CBD2823EDF8B70064B08D /* Main.storyboard */,
-				B20CBD2B23EDF8BA0064B08D /* Assets.xcassets */,
 				B20CBD2D23EDF8BA0064B08D /* LaunchScreen.storyboard */,
 				B20CBD3023EDF8BA0064B08D /* Info.plist */,
 				B20CBD3123EDF8BA0064B08D /* main.m */,
@@ -240,9 +272,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B276886D23EE096900B3DC84 /* ChiefsTableView in Resources */,
 				B20CBD2F23EDF8BA0064B08D /* LaunchScreen.storyboard in Resources */,
-				B20CBD2C23EDF8BA0064B08D /* Assets.xcassets in Resources */,
+				B20CBD5723EDFB1B0064B08D /* Webviews in Resources */,
 				B20CBD2A23EDF8B80064B08D /* Main.storyboard in Resources */,
+				B2C32CEB23EE12F000E49B70 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +301,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D661BD23EE1E2500E1CB6F /* RosterTableViewCell.m in Sources */,
+				B2D661B423EE1DE500E1CB6F /* ChiefsTableView in Sources */,
+				B2D661C623EE1E2E00E1CB6F /* ScheduleTableViewCell.m in Sources */,
+				B2D661BB23EE1E2500E1CB6F /* RVController.m in Sources */,
+				B2D661C523EE1E2E00E1CB6F /* Schedule.m in Sources */,
 				B20CBD2723EDF8B70064B08D /* ViewController.m in Sources */,
 				B20CBD2123EDF8B70064B08D /* AppDelegate.m in Sources */,
+				B2D661BC23EE1E2500E1CB6F /* Roster.m in Sources */,
 				B20CBD3223EDF8BA0064B08D /* main.m in Sources */,
-				B20CBD2423EDF8B70064B08D /* SceneDelegate.m in Sources */,
+				B2D661C423EE1E2E00E1CB6F /* ScheduleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -442,6 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7QBQN6WY4T;
 				INFOPLIST_FILE = IthimbaChiefs365/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +500,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7QBQN6WY4T;
 				INFOPLIST_FILE = IthimbaChiefs365/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

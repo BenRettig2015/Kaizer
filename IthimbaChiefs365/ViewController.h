@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  IthimbaChiefs365
+//  IthimbaKaizer
 //
-//  Created by newuser on 2/7/20.
-//  Copyright © 2020 Benjamin Rettig. All rights reserved.
+//  Created by newuser on 12/28/19.
+//  Copyright © 2019 Team365. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
